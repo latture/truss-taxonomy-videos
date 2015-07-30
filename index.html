@@ -4,9 +4,11 @@
     <meta charset="utf-8" />
     <title>Truss taxonomy | Video gallery</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.css" rel="stylesheet" type="text/css">
 
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
 
     <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
@@ -16,25 +18,10 @@
 <div class="container">
 
 <div class="page-header">
-    <h1>A Taxonomy of Truss Structure |  <small>supplemental material from the authors</small></h1>
+    <h1>A Taxonomy of Truss Structure | <small>supplemental material from the authors</small></h1>
 </div>
 
 <!-- Responsive Gallery - START -->
-
-<style>
-img {
-    filter: gray; /* IE6-9 */
-    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
-    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
-    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
-    margin-bottom: 20px;
-}
-img:hover {
-    filter: none; /* IE6-9 */
-    -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
-}
-</style>
 
 <div class="container">
     <div class="row">
@@ -45,21 +32,33 @@ img:hover {
             <div class="col-md-4">
                 <div class="well">
                     <a href="https://latture.github.io/truss-taxonomy-videos/videos/{2BCC}^3l{2SC}^3.mov" target="_blank">
-                        <img class="thumbnail img-responsive center-block" alt="{2BCC}^3|{2SC}^3" src="thumbnails/{2BCC}^3_{2SC}^3_thumb.png"/>
+                        <div class="media thumbnail"> <img class="media__image img-responsive center-block" src="thumbnails/{2BCC}^3_{2SC}^3_thumb.png" alt="{2BCC}^3|{2SC}^3"/>
+                          <div class="media__body">
+                            <h2>{2BCC}<sup>3</sup>|{2SC}<sup>3</sup></h2>
+                          </div>
+                        </div>                    
                     </a>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="well">
                     <a href="https://latture.github.io/truss-taxonomy-videos/videos/{2BCC}^3l{2SC}^3l{1SC}[0_5,0_5,0_5].mov" target="_blank">
-                        <img class="thumbnail img-responsive center-block" alt="{2BCC}|{2SC}|{1SC}[0.5,0.5,0.5]" src="thumbnails/{2BCC}_{2SC}_{1SC}_thumb.png"/>
+                        <div class="media thumbnail"> <img class="media__image img-responsive center-block" src="thumbnails/{2BCC}_{2SC}_{1SC}_thumb.png" alt="{2BCC}|{2SC}|{1SC}[0.5,0.5,0.5]"/>
+                          <div class="media__body">
+                            <h2>{2BCC}<sup>3</sup>|{2SC}<sup>3</sup>|{2SC}<sup>3</sup>[1/2,1/2,1/2]</h2>
+                          </div>
+                        </div>  
                     </a>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="well">
                     <a href="https://latture.github.io/truss-taxonomy-videos/videos/{2BCC}^3l{1FCC}-222-.mov" target="_blank">
-                        <img class="thumbnail img-responsive center-block" alt="{2BCC}|{FCC}<2,2,2>" src="thumbnails/{2BCC}_{FCC}_2,2,2_thumb.png"/>
+                        <div class="media thumbnail"> <img class="media__image img-responsive center-block" src="thumbnails/{2BCC}_{FCC}_2,2,2_thumb.png" alt="{2BCC}|{FCC}<2,2,2>"/>
+                          <div class="media__body">
+                            <h2>{2BCC}<sup>3</sup>|<br>{1FCC}&lt;222&gt;</h2>
+                          </div>
+                        </div>
                     </a>
                 </div>
             </div>
@@ -68,37 +67,57 @@ img:hover {
             <div class="col-md-4">
                 <div class="well">
                     <a href="https://latture.github.io/truss-taxonomy-videos/videos/{2BCC}^3l{1SC}-222-.mov" target="_blank">
-                        <img class="thumbnail img-responsive center-block" alt="{2BCC}|{1SC}<2,2,2>" src="thumbnails/{2BCC}_{SC}_2,2,2_thumb.png"/>
+                        <div class="media thumbnail"> <img class="media__image img-responsive center-block" src="thumbnails/{2BCC}_{SC}_2,2,2_thumb.png" alt="{2BCC}|{1SC}<2,2,2>"/>
+                          <div class="media__body">
+                            <h2>{2BCC}<sup>3</sup>|<br>{1SC}&lt;222&gt;</h2>
+                          </div>
+                        </div>
                     </a>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="well">
                     <a href="https://latture.github.io/truss-taxonomy-videos/videos/{2SC}^3l{1FCC}-222-.mov" target="_blank">
-                        <img class="thumbnail img-responsive center-block" alt="{2SC}^3|{1FCC}<2,2,2>" src="thumbnails/{2SC}^3_{1FCC}_2,2,2_thumb.png"/>
+                        <div class="media thumbnail"> <img class="media__image img-responsive center-block" src="thumbnails/{2SC}^3_{1FCC}_2,2,2_thumb.png" alt="{2SC}^3|{1FCC}<2,2,2>"/>
+                          <div class="media__body">
+                            <h2>{2SC}<sup>3</sup>|<br>{1FCC}&lt;222&gt;</h2>
+                          </div>
+                        </div>
                     </a>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="well">
                     <a href="https://latture.github.io/truss-taxonomy-videos/videos/{2{FCC[0,0,0][1_4,1_4,1_4]}}^3 (Diamond Cubic)" target="_blank">
-                        <img class="thumbnail img-responsive center-block" alt="Diamond cubic" src="thumbnails/{2DC}^3_thumb.png"/>
+                        <div class="media thumbnail"> <img class="media__image img-responsive center-block" src="thumbnails/{2DC}^3_thumb.png" alt="Diamond cubic"/>
+                          <div class="media__body">
+                            <h2>{2{FCC[0,0,0][1/4,1/4,1/4]}}<sup>3</sup></h2>
+                          </div>
+                        </div>
                     </a>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="well">
                     <a href="https://latture.github.io/truss-taxonomy-videos/videos/{2{BCC[0,0,0][0,1,1][1,0,1][1,1,0]}}^3.mov" target="_blank">
-                        <img class="thumbnail img-responsive center-block" alt="Rhombic dodecahedron" src="thumbnails/{2RD}^3_thumb.png"/>
+                        <div class="media thumbnail"> <img class="media__image img-responsive center-block" src="thumbnails/{2RD}^3_thumb.png" alt="Rhombic dodecahedron"/>
+                          <div class="media__body">
+                            <h2>{2{BCC[0,0,0][0,1,1][1,0,1][1,1,0]}}<sup>3</sup></h2>
+                          </div>
+                        </div>
                     </a>
                 </div>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-6">
                 <div class="well">
                     <a href="https://latture.github.io/truss-taxonomy-videos/videos/{2{R[0,0,0][0,0,1_2][0,1_2,0][1_2,0,0]}}^3 (Kagome).mov" target="_blank">
-                        <img class="thumbnail img-responsive center-block" alt="Kagome" src="thumbnails/Kagome_2x2x2_thumb.png"/>
+                        <div class="media thumbnail"> <img class="media__image img-responsive center-block" src="thumbnails/Kagome_2x2x2_thumb.png" alt="Kagome"/>
+                          <div class="media__body">
+                            <h2>{2{R[0,0,0][0,0,1/2][0,1/2,0][1/2,0,0]}}<sup>3</sup></h2>
+                          </div>
+                        </div>
                     </a>
                 </div>
             </div>
