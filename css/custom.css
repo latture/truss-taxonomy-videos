@@ -5,15 +5,24 @@ Source: http://codepen.io/hugo/pen/teGmr
 */
 
 img {
-    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
-    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
 }
 
 body {
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.5;
   padding: 3em;
   text-align: center;
+}
+
+h1, h2 {
+  font-family: "Merriweather", sans-serif;
+}
+
+small {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .media {
@@ -69,4 +78,7 @@ body {
   opacity: 1;
 }
 
-.media__body h2 { margin-top: 2em; }
+.media__body h2 { 
+  margin-top: 2em; 
+  font-family: 'Open Sans', sans-serif;
+}
