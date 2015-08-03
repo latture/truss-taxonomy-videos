@@ -4,12 +4,6 @@ MIT Licensed
 Source: http://codepen.io/hugo/pen/teGmr
 */
 
-img {
-  -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
-  box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
-}
-
 body {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.5;
@@ -31,7 +25,12 @@ small {
   vertical-align: top;
 }
 
-.media__image { display: block; }
+.media__image { 
+  display: block; 
+  -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+}
 
 .media__body {
   background: rgba(0, 0, 0, 0.5);
@@ -81,4 +80,8 @@ small {
 .media__body h2 { 
   margin-top: 2em; 
   font-family: 'Open Sans', sans-serif;
+}
+
+.media__image {
+
 }
