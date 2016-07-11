@@ -1,7 +1,7 @@
 Periodic Truss Structures
 =========================
 
-Supplemental material from the authors.
+Supplemental material from the authors. A video gallery can be found at [http://latture.github.io/truss-taxonomy-videos](http://latture.github.io/truss-taxonomy-videos/).
 
 Each folder contains a video of the specified truss, a still frame to be used as the thumbnail for the video, and a text file containing the caption intended for the video.
 
