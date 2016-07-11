@@ -1,0 +1,1 @@
+Video of the $$\left{ 2 \left{ R \left[ 0 0 0 \right] \left[ 0 0 \frac{1}{2} \right] \left[ 0 \frac{1}{2} 0 \right] \left[ \frac{1}{2} 0 0 \right] \right} \right}^{3}$$ (Kagome) truss. Unit cell is highlighted by darker colors.

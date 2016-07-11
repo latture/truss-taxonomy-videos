@@ -1,0 +1,1 @@
+Video of the $$\left{ 2 \left{ BCC \left[ 0 0 0 \right] \left[ 0 1 1 \right] \left[ 1 0 1 \right] \left[ 1 1 0 \right] \right} \right}^{3}$$ (rhombic dodecahedral) truss. Unit cell is highlighted by darker colors.
